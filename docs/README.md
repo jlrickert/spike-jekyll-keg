@@ -2,4 +2,4 @@
 
 Some content
 
-See [index](docs/dex/changes.md)
+See [index](dex/changes.md)
