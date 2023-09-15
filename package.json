@@ -1,0 +1,24 @@
+{
+  "name": "spike-jekyll",
+  "version": "1.0.0",
+  "description": "Some content",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "tinacms dev -c \"bundle exec jekyll serve -H 0.0.0.0 --safe --source docs\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.29",
+    "tinacms": "^1.5.20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.1",
+    "add": "^2.0.6"
+  }
+}
